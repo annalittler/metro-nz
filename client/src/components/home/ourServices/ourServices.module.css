@@ -1,0 +1,132 @@
+.servicesMainContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 2px solid green; */
+
+  /* height: 80vh; */
+  /* padding-top: 3rem; */
+  /* padding-bottom: 20vh; */
+  /* border: 2px solid blue; */
+}
+
+.servicesInnerContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  width: 90vw;
+  padding: 7rem 0;
+
+  /* border: 2px solid blue; */
+}
+
+.headingContainer h6 {
+  color: var(--metro-red);
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-top: 3rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.07em;
+}
+
+.headingContainer h1 {
+  font-size: 2.25rem;
+  color: var(--metro-black);
+  width: 50vw;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+
+  /* margin: 0; */
+  /* height: 13.56vh; */
+}
+
+.headingContainer {
+  margin: 0;
+  padding-bottom: 1.5rem;
+  /* border: 2px solid red; */
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 1.2rem; */
+  padding: 0;
+  /* border: 5px solid green; */
+}
+
+.innerCards h4 {
+  margin: 1rem 0;
+  /* border: 2px solid green; */
+  /* font-size: 1.5rem; */
+  /* padding: 0; */
+}
+
+.innerCards p {
+  margin: 0;
+  /* border: 2px solid green; */
+  /* padding: 0; */
+}
+
+.cards,
+.middleCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  width: 26vw;
+  height: 32vh;
+  border: 1px solid #dadada;
+  box-shadow: 1px 3px 4px 1.5px #dadada;
+  /* padding: 5rem; */
+  cursor: pointer;
+  /* border: 2px solid brown; */
+}
+
+.cards:hover {
+  background-color: var(--metro-light-grey);
+}
+
+.middleCard:hover {
+  background-color: var(--metro-black);
+}
+
+.middleCard {
+  background-color: var(--metro-red);
+}
+
+.innerCards {
+  font-size: 1rem;
+  /* padding: 1rem; */
+  letter-spacing: 0.07em;
+}
+
+.middleInnerCard {
+  font-size: 1rem;
+  /* padding: 1rem; */
+  letter-spacing: 0.07em;
+}
+
+.middleCardText {
+  color: white;
+}
+
+.iconCards {
+  /* padding: 2rem 0 0 1rem; */
+  /* width: 20%; */
+  /* aspect-ratio: 1; */
+  height: 2.2rem;
+  padding: 0;
+  /* border: 2px solid navy; */
+}
+
+.cardInner {
+  display: flex;
+  flex: 1;
+  /* border: 10px solid pink; */
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  padding: 1.2rem;
+}

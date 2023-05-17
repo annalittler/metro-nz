@@ -1,0 +1,99 @@
+.callMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 65vh;
+  padding-bottom: 6rem;
+  /* border: 1px solid black; */
+}
+
+.blackContainer {
+  display: flex;
+  background-color: var(--metro-black);
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  height: 50vh;
+  /* border: 4px solid pink; */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  /* border: 2px solid yellow; */
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  /* border: 2px solid yellow; */
+}
+
+.innerBlackContainer {
+  display: flex;
+  flex-direction: row;
+
+  /* align-items: center; */
+  width: 90vw;
+  /* margin-top: -80px; */
+}
+
+.callUsPhoto {
+  margin-top: -20rem;
+}
+
+.callInnerContainer {
+  display: flex;
+  width: 100%;
+  height: 27vh;
+  margin: 0 0 0 -12.5em;
+}
+
+.contactUsContainer {
+  display: flex;
+  width: 100%;
+  /* margin-bottom: 50px; */
+  padding: 1rem;
+  /* justify-content: space-between; */
+}
+
+.contactUsBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 19vw;
+  /* height: 25vh; */
+  padding: 1.5em 0 0.5em 2em;
+  /* padding: 4rem 2rem; */
+  background-color: white;
+  /* border: 2px solid pink; */
+}
+
+.contactUsBox h4 {
+  /* font-size: 1.6rem; */
+  letter-spacing: 0.07em;
+}
+
+.contactUsText {
+  /* margin: 2em; */
+  color: white;
+  /* width: 100%; */
+  height: auto;
+  letter-spacing: 0.07em;
+
+  /* padding-left: 4em; */
+  /* border: 2px solid red */
+}
+
+.contactUsText h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  /* display: none; */
+}

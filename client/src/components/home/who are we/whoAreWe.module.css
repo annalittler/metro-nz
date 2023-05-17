@@ -1,0 +1,146 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* border: 2px solid black; */
+  /* border: 2px solid pink; */
+}
+
+.innerContainer {
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+  /* justify-content: end; */
+  /* justify-content: stretch; */
+  /* align-items: space-between; */
+  /* align-items: center; */
+  /* border: 2px solid navy; */
+}
+
+.imageContainer {
+  display: flex;
+  /* justify-content: center; */
+  width: 50%;
+  /* border: 2px solid pink; */
+  /* padding-right: 2rem; */
+}
+
+.groupPhoto {
+  width: 95%;
+  height: auto;
+}
+
+.whoWeAreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  /* border: 6px solid rgb(255, 0, 0); */
+}
+
+.whoWeAreHeading {
+  font-size: 1.2rem;
+  color: var(--metro-red);
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  /* margin: 0.7rem 0; */
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid brown; */
+}
+
+.innerHeading {
+  font-size: 2.25rem;
+  /* font-size: 42px; */
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  width: 90%;
+  margin: 0;
+  /* flex: 1; */
+  /* border: 10px solid gold; */
+}
+
+.innerBody {
+  font-size: 1rem;
+  color: var(--metro-grey);
+  /* padding-top: 1rem; */
+  /* border: 2px solid aqua; */
+  margin: 0;
+}
+
+.tickBoxContainer {
+  display: flex;
+  /* padding-top: 1rem; */
+  margin: 0;
+  /* border: 2px solid pink; */
+}
+
+.rightTickBoxes,
+.leftTickBoxes {
+  width: 50%;
+}
+
+.tickBoxes {
+  display: flex;
+  align-items: center;
+  padding: 0.2em 0;
+  color: var(--metro-grey);
+}
+
+.tickBoxes img {
+  padding-right: 0.85em;
+}
+
+.companyOutterContainer {
+  display: flex;
+  justify-content: center;
+  /* border: 4px solid orange; */
+
+  /* height: 10%; */
+  /* padding: 0; */
+  margin: 0;
+  /* flex: 5; */
+}
+
+.companyInnerContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 35vw;
+  /* border: 10px solid rgb(12, 142, 96); */
+  margin: 0;
+  padding: 0;
+}
+
+.bodyText h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--metro-red);
+  letter-spacing: 3px;
+  /* border: 2px solid blue; */
+  margin: 0;
+}
+
+.bodyText p {
+  font-size: 0.95em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  /* border: 2px solid pink; */
+  margin: 0;
+}
+
+.bodyText {
+  /* font-size: 0.95em;
+  font-weight: 600;
+  letter-spacing: 2px; */
+  /* border: 2px solid pink; */
+  /* padding: 0; */
+  /* margin: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 50%; */
+}
